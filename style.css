@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+
+}
+sub{
+    font-size: 15px;
+}
+body{
+    background-image: url("wallpaper.jpg");
+}
+
+.wpahr{
+    font-size: 70px;
+    text-align: center;
+}
+#emptyspace{
+    height : 200px;
+}
+#emptyspace2{
+    height: 100px;
+}
+
+input{
+    border-radius: 30px;
+}
+input:focus{ /* 포커스 받을 때 */
+	background-color: aliceblue;
+}
+form{
+    font-size :40px;
+    text-align: center;
+    color : white;
+    
+}

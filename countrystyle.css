@@ -1,0 +1,16 @@
+body{
+    background-image: url("visuals-0RPf107BLek-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+a{
+    font-size: 15px;
+}
+a:hover{
+    color : skyblue;
+    font-size: 20px;
+}
+
+.maintitle{
+    font-size: 40px;
+}
