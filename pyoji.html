@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>아시아 코로나-19 현황</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+    function moveUrl(){
+        var country = document.getElementById("inputName").value;
+        if (country == "몽골"){
+            window.open('http://www.daum.net ', '_blank'); 
+        }
+    }
+    </script>
+  </head>
+  <body>
+      <div id ="emptyspace"></div>
+      <div class = "wpahr"><strong>아시아 코로나-19 현황 <sub>2021-12-09기준</sub></strong></div>
+      <div id ="emptyspace2"></div>
+      <form>
+          <div>
+              <strong><mark>아시아대륙 나라 입력</strong></mark> : 
+              <input list = "countrylist" id = "inputName" onkeyup="if(window.event.keyCode==13){moveUrl()}" placeholder="ex) 대한민국, 중국, 일본" style = "width :300px; height:50px;">
+              <button onclick = "moveUrl()">입력</button>
+          </div>
+      </form>
+      <datalist id = "countrylist">
+          <option value ="중국"></option>
+          <option value ="홍콩"></option>
+          <option value ="대만"></option>
+          <option value ="마카오"></option>
+          <option value ="일본"></option>
+          <option value ="싱가포르"></option>
+          <option value ="태국"></option>
+          <option value ="말레이시아"></option>
+          <option value ="베트남"></option>
+          <option value ="인도"></option>
+          <option value ="필리핀"></option>
+          <option value ="캄보디아"></option>
+          <option value ="네팔"></option>
+          <option value ="스리랑카"></option>
+          <option value ="아프가니스탄"></option>
+          <option value ="파키스탄"></option>
+          <option value ="인도네스아"></option>
+          <option value ="부탄"></option>
+          <option value ="몰디브"></option>
+          <option value ="방글라데시"></option>
+          <option value ="브루나이"></option>
+          <option value ="몽골"></option>
+          <option value ="카자흐스탄"></option>
+          <option value ="우주베키스탄"></option>
+          <option value ="키르기스스탄"></option>
+          <option value ="동티모르"></option>
+          <option value ="미얀마"></option>
+          <option value ="라오스"></option>
+          <option value ="타지키스탄"></option>
+      </datalist>
+
+  </body>
+</html>
